@@ -1,0 +1,42 @@
+@import 'menu';
+@import 'constants';
+
+%btn{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    &:hover{
+        transition: .3s;
+        background-color: red;
+        color: aqua;
+    }
+}
+
+body{
+    background-color: $background-color;
+}
+
+.div1{
+    background-color: $box-background-color;
+    padding: $box-padding;
+}
+
+.div2{
+    padding: $box-padding;
+    background-color: aliceblue;
+}
+
+.btn1{
+    @extend %btn; //yukarıda tanımladıklarını böyle okutabiliyorsun.
+    box-shadow: 0 0 10px gray;
+}
+
+.btn2{
+    @extend %btn;
+    &:hover{
+        color: white;
+    }
+}

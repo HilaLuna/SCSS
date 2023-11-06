@@ -1,0 +1,62 @@
+nav {
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+}
+nav header {
+  background-color: bisque;
+  padding: 10px;
+}
+nav header ul {
+  background-color: blueviolet;
+  list-style-type: none;
+  display: flex;
+}
+nav header ul li {
+  color: white;
+  margin-left: 10px;
+}
+nav header ul li:hover {
+  background-color: red;
+  color: green;
+}
+nav header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn2, .btn1 {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+}
+.btn2:hover, .btn1:hover {
+  transition: 0.3s;
+  background-color: red;
+  color: aqua;
+}
+
+body {
+  background-color: rgb(242, 129, 48);
+}
+
+.div1 {
+  background-color: rgb(115, 184, 19);
+  padding: 9px;
+}
+
+.div2 {
+  padding: 9px;
+  background-color: aliceblue;
+}
+
+.btn1 {
+  box-shadow: 0 0 10px gray;
+}
+
+.btn2:hover {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
